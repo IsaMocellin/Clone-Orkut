@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --rosa-claro: #F0C9EA;
+  --rosa-escuro: #E8258E;
+  --branco: #E7DDE3;
+  --cor-google-azul: #4285F4;
+  --cor-google-verde: #0F9D58;
+  --cor-google-amarelo: #F48400;
+  --cor-google-vermelho: #DB4437;
+  font-family: 'Segoe UI', Helvetica , Arial, sans-serif;
+  background-color: var(--rosa-claro);
+}
+
+.btn-rosa{
+  background-color: var(--rosa-escuro);
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.color-default{
+  color: #242323;
+}
+
+.link{
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.pink-text{
+  color:var(--rosa-escuro);
+}
